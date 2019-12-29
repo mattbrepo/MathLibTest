@@ -18,7 +18,7 @@ I wanted to compare different C++ mathematical libraries. I created _MathLibComp
 ## Notes on compiling BLAS to dll (BLASDirect) for Microsoft Visual Studio (MSVS)
 I started from notes found online that I then changed to:
 
-1) installed gfortran-windows-20140629.exe
+1) install gfortran-windows-20140629.exe
 2) open a command prompt and go to _BLAS-3.5.0\out_
 3) _gfortran -O2 -c ..\src\*.f_
 4) _gfortran -shared *.o -static-libgfortran -o libblas.dll_
