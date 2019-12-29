@@ -38,3 +38,21 @@ _gfortran_arandom_r16
 8) _lib /def:libblas.def /OUT:libblas.lib_
 9) copy _libblas.dll_ and _libblas.lib_ to the _lib_ folder of the MSVS project
 10) add _libblas.lib_ in the MSVS menu _Project_->_Properties_->_Linker_->_Input_->_Additional Dependencies_ 
+
+## Results
+
+Performance results multipling two 1024x1024 matrices:
+
+Name                     | milliseconds
+-------------------------|-----------------
+Simple in C# (optimized) | 38895
+Simple in C++            | 15258
+Armadillo                | 1198 (*)
+BLASDirect               | 1439 (*)
+Boost                    | 1460
+Eigen                    | 893 (*)
+OpenBLAS                 | 316
+OpenCV                   | 912
+
+_(*) these seems to have to compute a matrix a bit different from the other ones._
+----- End
