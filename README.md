@@ -41,7 +41,7 @@ _gfortran_arandom_r16
 
 ## Results
 
-Performance results multipling two 1024x1024 matrices:
+Performance results multiplying two 1024x1024 matrices:
 
 Name                     | milliseconds
 -------------------------|-----------------
