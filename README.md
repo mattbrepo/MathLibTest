@@ -13,7 +13,7 @@ Test of different C++ mathematical libraries:
 **Start: 2015**
 
 ## Why
-I wanted to compare different C++ mathematical libraries. I created _MathLibCompare_ to compare performance of the libraries while doing a multiplication of two 1024 square matrices. I have chosen the libraries from the one reported [here](https://en.wikipedia.org/wiki/List_of_numerical_libraries).
+I wanted to compare different C++ mathematical libraries. I created _MathLibCompare_ to compare performance of the libraries while doing a multiplication of two 1024 square matrices. I have chosen the libraries among those reported [here](https://en.wikipedia.org/wiki/List_of_numerical_libraries).
 
 ## Notes on compiling BLAS to dll (BLASDirect) for Microsoft Visual Studio (MSVS)
 I started from notes found online that I then changed to:
@@ -54,5 +54,4 @@ Eigen                    | 893 (*)
 OpenBLAS                 | 316
 OpenCV                   | 912
 
-_(*) these seems to have to compute a matrix a bit different from the other ones._
------ End
+_(*) these seem to compute a result matrix a bit different from the other ones._
