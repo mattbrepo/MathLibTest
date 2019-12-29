@@ -348,3 +348,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+ArmadilloLib/armadillo_include
+BLASDirect/lib
+BoostLib/include_boost/
+EigenLib/include_eigen
+OpenBLASLib/include
+OpenBLASLib/lib
+OpenCVLib/include
