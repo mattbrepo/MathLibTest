@@ -13,7 +13,7 @@ Test of different C++ mathematical libraries:
 **Start: 2015**
 
 ## Why
-I wanted to compare different C++ mathematical libraries. I created _MathLibCompare_ to compare performance of the libraries while doing a multiplication of two 1024 square matrices.
+I wanted to compare different C++ mathematical libraries. I created _MathLibCompare_ to compare performance of the libraries while doing a multiplication of two 1024 square matrices. I have chosen the libraries from the one reported [here](https://en.wikipedia.org/wiki/List_of_numerical_libraries).
 
 ## Notes on compiling BLAS to dll (BLASDirect) for Microsoft Visual Studio (MSVS)
 I started from notes found online that I then changed to:
