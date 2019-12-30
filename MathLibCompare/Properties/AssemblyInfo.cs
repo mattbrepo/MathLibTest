@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MathLibTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("BLM SPA")]
+[assembly: AssemblyCompany(" ")]
 [assembly: AssemblyProduct("MathLibTest")]
-[assembly: AssemblyCopyright("Copyright © BLM SPA 2015")]
+[assembly: AssemblyCopyright("Copyright © 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
