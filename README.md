@@ -40,7 +40,6 @@ _gfortran_arandom_r16
 10) add _libblas.lib_ in the MSVS menu _Project_->_Properties_->_Linker_->_Input_->_Additional Dependencies_ 
 
 ## Results
-
 Performance results multiplying two 1024x1024 matrices:
 
 Name                     | milliseconds
