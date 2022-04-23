@@ -356,5 +356,6 @@ EigenLib/include_eigen
 OpenBLASLib/include
 OpenBLASLib/lib
 OpenCVLib/include
+OpenCVLib/lib
 
 _todo.txt
