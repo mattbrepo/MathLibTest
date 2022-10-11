@@ -1,19 +1,21 @@
 # MathLibTest
-Test of different C++ mathematical libraries:
-
-* [Armadillo](https://en.wikipedia.org/wiki/Armadillo_(C%2B%2B_library))
-* BLASDirect (native compilation of [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) for Microsoft Visual Studio)
-* [Boost](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
-* [Eigen](https://en.wikipedia.org/wiki/Eigen_(C%2B%2B_library))
-* [OpenBLAS](https://en.wikipedia.org/wiki/OpenBLAS)
-* [OpenCV](https://en.wikipedia.org/wiki/OpenCV)
+Test of different C++ mathematical libraries.
 
 **Language: C++ / C#**
 
 **Start: 2015**
 
 ## Why
-I wanted to compare different C++ mathematical libraries. I created _MathLibCompare_ to compare performance of the libraries while doing a multiplication of two 1024 square matrices. I have chosen the libraries among those reported [here](https://en.wikipedia.org/wiki/List_of_numerical_libraries).
+I wanted to compare different C++ mathematical libraries:
+
+- [Armadillo](https://en.wikipedia.org/wiki/Armadillo_(C%2B%2B_library))
+- BLASDirect (native compilation of [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) for Microsoft Visual Studio)
+- [Boost](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
+- [Eigen](https://en.wikipedia.org/wiki/Eigen_(C%2B%2B_library))
+- [OpenBLAS](https://en.wikipedia.org/wiki/OpenBLAS)
+- [OpenCV](https://en.wikipedia.org/wiki/OpenCV)
+
+I created this project to compare performance of the libraries while doing a multiplication of two 1024 square matrices. I have chosen the libraries among those reported [here](https://en.wikipedia.org/wiki/List_of_numerical_libraries). It's also worth mentioning the document put together by Claire Mouton (INRIA) to help in the choice of a linear algebra library: [pdf](https://hal.inria.fr/inria-00576469/PDF/linear_algebra.pdf)
 
 ## Notes on compiling BLAS to dll (BLASDirect) for Microsoft Visual Studio (MSVS)
 I started from notes found online that I then changed to:
