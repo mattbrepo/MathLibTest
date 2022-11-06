@@ -1,7 +1,7 @@
 # MathLibTest
 Test of different C++ mathematical libraries.
 
-**Language: C++ / C#**
+**Language: C/C++ / C#**
 
 **Start: 2015**
 
